@@ -1,0 +1,150 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Add some styles for body*/
+body {
+    min-height: 100vh;
+    max-width: 1280px;
+    margin: 0 auto;
+    background: #020617;
+    color: #cbd5e1;
+    line-height: 1.5;
+    background-image: radial-gradient(#0f172a 1px,transparent 0),radial-gradient(#0f172a 1px,transparent 0);
+}
+.container{
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2, 40%);
+    grid-template-rows: 100vh;
+    grid-column-gap: 30px;
+    justify-content: center;
+}
+
+.text, .image{
+    display: grid;
+}
+
+.text{
+    align-items: center;
+    height: 50%;
+}
+
+.boton{
+    align-items: center;
+    background-color: hsl(230, 33%, 14%);
+    color: white;
+    border-radius: 20px;
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    width: 70%;
+    
+}
+
+.boton img{
+    height: 15px;
+    margin-right: 5px;
+    width: 15px;
+}
+
+.parrafo, .segundario{
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.parrafo{
+    font-size: 14px;
+}
+
+.titulo{
+    font-size: 2.5rem;
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+span{
+        
+    background: linear-gradient(to right, #a259ff, #d97dbA); /* Gradiente morado */
+    -webkit-background-clip: text; /* Clip el gradiente al texto */
+    -webkit-text-fill-color: transparent; /* Hace el fondo del texto transparente para mostrar el gradiente */
+    background-clip: text; /* Clip el gradiente al texto */
+    color: transparent; /* Hace el fondo del texto transparente para mostrar el gradiente */
+    font-size: 2.5rem;
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+}
+
+.image{
+    border: 15px solid hsl(172, 35%, 75%);
+    border-radius: 10px;
+}
+
+.image img{
+    width: 100%;
+    height: 200px;
+}
+
+.desing{
+    background-color: white;
+    border-bottom: 15px solid hsl(172, 35%, 75%);
+    border-top: 15px solid hsl(172, 35%, 75%);
+    color: #a259ff;
+    font-size: 12px;
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    padding: 2px;
+}
+
+.titulo_segundario{
+    background-color: white;
+    border-bottom: 5px solid hsl(172, 35%, 75%);
+    color: hsl(220, 9%, 13%);
+    font-size: 16px;
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    padding: 2px;
+}
+
+.descripcion{
+    background-color: white;
+    border-bottom: 15px solid hsl(172, 35%, 75%);
+    color: hsl(220, 7%, 47%);
+    font-size: 10px;
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    padding: 2px;
+}
+
+.final{
+    background-color: white;
+    border-top: 15px solid hsl(172, 35%, 75%);
+    color: hsl(220, 7%, 47%);
+    font-size: 8px;
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    padding: 2px;
+}
+
